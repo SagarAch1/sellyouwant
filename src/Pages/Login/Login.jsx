@@ -122,7 +122,7 @@ const Login = () => {
   return (
     <div style={styles.container}>
       <div style={styles.formContainer}>
-        <h2 style={styles.heading}>Login to Furniture Fusion</h2>
+        <h2 style={styles.heading}>Login to Sellyouwant</h2>
         <form onSubmit={handleLogin} style={styles.form}>
           <div style={styles.formGroup}>
             <label htmlFor="email" style={styles.label}>
