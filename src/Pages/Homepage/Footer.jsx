@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p>
-              <i className="fas fa-home mr-3"></i> Tarkeshwor, Np, Kathmandu
+              <i className="fas fa-home mr-3"></i> Tarkeshwor, Nepal, Kathmandu
             </p>
             <p>
               <i className="fas fa-envelope mr-3"></i> infoo@sellyouwant.com
@@ -78,8 +78,8 @@ const Footer = () => {
           <div className="col-md-7 col-lg-8">
             <p className="text-center text-md-left">
               © 2024 Copyright:
-              <a href="https://furniturefusion.com/" className="text-white" style={{ textDecoration: "none" }}>
-                Furniturefusion.com
+              <a href="https://sellyouwant.com/" className="text-white" style={{ textDecoration: "none" }}>
+                sellyouwant.com
               </a>
             </p>
           </div>
