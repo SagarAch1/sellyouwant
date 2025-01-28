@@ -64,7 +64,7 @@ const Footer = () => {
               <i className="fas fa-home mr-3"></i> Tarkeshwor, Np, Kathmandu
             </p>
             <p>
-              <i className="fas fa-envelope mr-3"></i> infoo@furniturefusion.com
+              <i className="fas fa-envelope mr-3"></i> infoo@sellyouwant.com
             </p>
             <p>
               <i className="fas fa-phone mr-3"></i> + 977777777
