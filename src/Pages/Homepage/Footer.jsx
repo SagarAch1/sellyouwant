@@ -67,7 +67,7 @@ const Footer = () => {
               <i className="fas fa-envelope mr-3"></i> infoo@sellyouwant.com
             </p>
             <p>
-              <i className="fas fa-phone mr-3"></i> + 977777777
+              <i className="fas fa-phone mr-3"></i> + 978904567
             </p>
             <p>
               <i className="fas fa-print mr-3"></i> + 984001111
