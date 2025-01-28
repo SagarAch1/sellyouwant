@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container text-center text-md-left">
         <div className="row text-center text-md-left mt-3 pb-3">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Furniture Fuson</h6>
+            <h6 className="text-uppercase mb-4 font-weight-bold">Sellyouwant</h6>
             <p>
               We are here to  help you to buy and sell goods and services.
             </p>
