@@ -70,7 +70,7 @@ const Footer = () => {
               <i className="fas fa-phone mr-3"></i> + 977777777
             </p>
             <p>
-              <i className="fas fa-print mr-3"></i> + 984000000
+              <i className="fas fa-print mr-3"></i> + 984001111
             </p>
           </div>
         </div>
