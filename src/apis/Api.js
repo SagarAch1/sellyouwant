@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Creating Backend Config
 const Api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000", // Use environment variable for base URL
+  baseURL: process.env.REACT_APP_API_URL || "https://localhost:5000", // Use environment variable for base URL
   withCredentials: true, // This ensures that cookies are sent with requests
   headers: {
     "Content-Type": "multipart/form-data", // Default content type for form-data requests
@@ -110,7 +110,8 @@ export const CreateSingleOrderApi = (id) =>
   Api.post("/api/order/create_single_order", { id }, getConfig());
 export const getSingleOrderApi = (id) =>
   Api.get(`/api/order/get_single_order/${id}`, getConfig());
-export const updateOrderStatus = (updateData) => Api.put('/api/order/update_status', updateData, getConfig());
+export const updateOrderStatus = (updateData) =>
+  Api.put("/api/order/update_status", updateData, getConfig());
 
 // Wishlist APIs
 export const getWishlistApi = () =>
@@ -142,9 +143,7 @@ export const getDashboardStats = () =>
 
 export const clearCartApi = () => {
   return axios.delete("/api/cart/clear");
-
-
-
 };
 
-export const khaltiApiSend = (data, khaltiConfig) => Api.post("https://khalti.com/api/v2/payment/verify/", data, khaltiConfig);
+export const khaltiApiSend = (data, khaltiConfig) =>
+  Api.post("https://khalti.com/api/v2/payment/verify/", data, khaltiConfig);

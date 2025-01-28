@@ -44,7 +44,7 @@ const Login = () => {
     e.preventDefault();
 
     const maxAttempts = 3;
-    const lockDuration = 30 * 60 * 1000; // 30 minutes in milliseconds
+    const lockDuration = 3 * 60 * 1000; // 30 minutes in milliseconds
     const failedAttempts =
       JSON.parse(localStorage.getItem("failedAttempts")) || 0;
     const lastFailedTime =
@@ -56,7 +56,7 @@ const Login = () => {
       Date.now() - lastFailedTime < lockDuration
     ) {
       const timeRemaining = Math.ceil(
-        (lockDuration - (Date.now() - lastFailedTime)) / 1000 / 60
+        (lockDuration - (Date.now() - lastFailedTime)) / 1000 / 6
       ); // in minutes
       toast.error(
         `Account locked. Please try again in ${timeRemaining} minutes.`
